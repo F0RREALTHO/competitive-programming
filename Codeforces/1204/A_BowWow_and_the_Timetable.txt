@@ -1,0 +1,12 @@
+bs = input().strip()
+
+deci = int(bs, 2)
+
+pow4 = 1
+count = 0
+
+while pow4 < deci:
+    count += 1
+    pow4 *= 4
+
+print(count)
